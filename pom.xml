@@ -55,13 +55,6 @@
                                 <!-- supports wildcard or name pattern -->
                                 <param>**/*.json</param>
                             </jsonFiles>
-                            <!-- optional, defaults to outputDirectory if not specified -->
-                            <classificationDirectory>${project.build.directory}/classifications</classificationDirectory>
-                            <classificationFiles>
-                                <!-- supports wildcard or name pattern -->
-                                <param>sample.properties</param>
-                                <param>other.properties</param>
-                            </classificationFiles>
 <!--                            <parallelTesting>false</parallelTesting>-->
                             <!-- optional, set true to group features by its Ids -->
                             <mergeFeaturesById>false</mergeFeaturesById>
