@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/avnred666/SwaggerPetStore-RESTAssured'
+        git(url: 'https://github.com/avnred666/SwaggerPetStore-RESTAssured', branch: 'main')
       }
     }
 
