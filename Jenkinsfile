@@ -13,11 +13,5 @@ pipeline {
       }
     }
 
-    stage('Cucumber Reports') {
-      steps {
-        cucumber '**/*.json'
-      }
-    }
-
   }
 }
