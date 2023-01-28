@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Swagger Petstore Suite">
+    <test name="Swagger Petstore Suite">
+        <classes>
+            <class name ="testrunner.TestRunner"/>
+        </classes>
+    </test>
+</suite>

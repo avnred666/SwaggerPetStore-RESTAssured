@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-21T22:22:27 IST" name="Swagger Petstore Suite" finished-at="2023-01-21T22:22:29 IST" duration-ms="1952">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@313ac989]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-01-21T22:22:27 IST" name="Swagger Petstore Suite" finished-at="2023-01-21T22:22:29 IST" duration-ms="1952">
+      <class name="testrunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-21T22:22:27 IST" name="setUpClass" finished-at="2023-01-21T22:22:28 IST" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2dd63e3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-21T22:22:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-21T22:22:29 IST" duration-ms="1066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can delete pets by id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test DELETE request to delete pets"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-21T22:22:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-21T22:22:29 IST" duration-ms="58" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can find pets by available status"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test GET requests to get pets with different options"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-21T22:22:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-21T22:22:29 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can find pets by their tags"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test GET requests to get pets with different options"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-21T22:22:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-21T22:22:29 IST" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can find pets by their id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test GET requests to get pets with different options"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-21T22:22:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-21T22:22:29 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can add a pet with POST request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test POST requests to add/update pets with different options"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-21T22:22:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-21T22:22:29 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can add a pet with POST request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test POST requests to add/update pets with different options"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-21T22:22:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-21T22:22:29 IST" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can update a pet with PUT request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test POST requests to add/update pets with different options"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-21T22:22:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-21T22:22:29 IST" duration-ms="44" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can update a pet with form data with POST request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test POST requests to add/update pets with different options"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-21T22:22:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-21T22:22:29 IST" duration-ms="28" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Returns a map of status codes to quantities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Returns pet inventories by status"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [80] but found [65]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [80] but found [65]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at stepdefinitions.StoreGetRequestsAPI.values_are_updated_as_follows(StoreGetRequestsAPI.java:45)
+at ✽.values are updated as follows:(file:///D:/IdeaProjects/SwaggerPetstore/src/test/resources/features/StoreGETInventory.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-21T22:22:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-21T22:22:29 IST" duration-ms="34" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Place a new order in the store"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Place and order for a pet"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-21T22:22:29 IST" name="tearDownClass" finished-at="2023-01-21T22:22:29 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.TestRunner -->
+    </test> <!-- Swagger Petstore Suite -->
+  </suite> <!-- Swagger Petstore Suite -->
+</testng-results>

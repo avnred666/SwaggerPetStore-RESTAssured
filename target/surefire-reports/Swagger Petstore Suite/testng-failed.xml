@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Swagger Petstore Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Swagger Petstore Suite(failed)" verbose="0">
+    <classes>
+      <class name="testrunner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="8"/>
+        </methods>
+      </class> <!-- testrunner.TestRunner -->
+    </classes>
+  </test> <!-- Swagger Petstore Suite(failed) -->
+</suite> <!-- Failed suite [Swagger Petstore Suite] -->

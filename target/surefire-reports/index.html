@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Swagger_Petstore_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Swagger Petstore Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Swagger_Petstore_Suite" class="navigator-link ">
+                    <span>D:\IdeaProjects\SwaggerPetstore\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Swagger_Petstore_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Swagger_Petstore_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Swagger_Petstore_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Swagger_Petstore_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Swagger_Petstore_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Swagger_Petstore_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Swagger_Petstore_Suite" class="hide-methods failed suite-Swagger_Petstore_Suite"> (hide)</a> <!-- hide-methods failed suite-Swagger_Petstore_Suite -->
+                      <a href="#" panel-name="suite-Swagger_Petstore_Suite" class="show-methods failed suite-Swagger_Petstore_Suite"> (show)</a> <!-- show-methods failed suite-Swagger_Petstore_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Swagger_Petstore_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Swagger_Petstore_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Returns a map of status codes to quantities&quot;, &quot;Returns pet inventories by status&quot;)">runScenario("Returns a map of status codes to quantities", "Returns pet inventories by status")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Swagger_Petstore_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Swagger_Petstore_Suite" class="hide-methods passed suite-Swagger_Petstore_Suite"> (hide)</a> <!-- hide-methods passed suite-Swagger_Petstore_Suite -->
+                      <a href="#" panel-name="suite-Swagger_Petstore_Suite" class="show-methods passed suite-Swagger_Petstore_Suite"> (show)</a> <!-- show-methods passed suite-Swagger_Petstore_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Swagger_Petstore_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Swagger_Petstore_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user can add a pet with POST request&quot;, &quot;Test POST requests to add/update pets with different...)">runScenario("Verify user can add a pet with POST request", "Test POST requests to add/update pets with different...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Swagger_Petstore_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user can find pets by their tags&quot;, &quot;Test GET requests to get pets with different options&quot;)">runScenario("Verify user can find pets by their tags", "Test GET requests to get pets with different options")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Swagger_Petstore_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user can find pets by their id&quot;, &quot;Test GET requests to get pets with different options&quot;)">runScenario("Verify user can find pets by their id", "Test GET requests to get pets with different options")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Swagger_Petstore_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user can update a pet with form data with POST request&quot;, &quot;Test POST requests to add/update p...)">runScenario("Verify user can update a pet with form data with POST request", "Test POST requests to add/update p...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Swagger_Petstore_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Place a new order in the store&quot;, &quot;Place and order for a pet&quot;)">runScenario("Place a new order in the store", "Place and order for a pet")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Swagger_Petstore_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user can update a pet with PUT request&quot;, &quot;Test POST requests to add/update pets with differe...)">runScenario("Verify user can update a pet with PUT request", "Test POST requests to add/update pets with differe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Swagger_Petstore_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user can add a pet with POST request&quot;, &quot;Test POST requests to add/update pets with different...)">runScenario("Verify user can add a pet with POST request", "Test POST requests to add/update pets with different...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Swagger_Petstore_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user can delete pets by id&quot;, &quot;Test DELETE request to delete pets&quot;)">runScenario("Verify user can delete pets by id", "Test DELETE request to delete pets")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Swagger_Petstore_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user can find pets by available status&quot;, &quot;Test GET requests to get pets with different optio...)">runScenario("Verify user can find pets by available status", "Test GET requests to get pets with different optio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Swagger_Petstore_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Swagger_Petstore_Suite" class="panel Swagger_Petstore_Suite">
+          <div class="suite-Swagger_Petstore_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testrunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Returns a map of status codes to quantities&quot;, &quot;Returns pet inventories by status&quot;)">
+                  </a> <!-- runScenario("Returns a map of status codes to quantities", "Returns pet inventories by status") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Returns a map of status codes to quantities","Returns pet inventories by status")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [80] but found [65]
+	at stepdefinitions.StoreGetRequestsAPI.values_are_updated_as_follows(StoreGetRequestsAPI.java:45)
+	at ✽.values are updated as follows:(file:///D:/IdeaProjects/SwaggerPetstore/src/test/resources/features/StoreGETInventory.feature:5)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Swagger_Petstore_Suite-class-failed -->
+          <div class="suite-Swagger_Petstore_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testrunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user can add a pet with POST request&quot;, &quot;Test POST requests to add/update pets with different...)">
+                  </a> <!-- runScenario("Verify user can add a pet with POST request", "Test POST requests to add/update pets with different...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user can add a pet with POST request","Test POST requests to add/update pets with different options")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user can find pets by their tags&quot;, &quot;Test GET requests to get pets with different options&quot;)">
+                  </a> <!-- runScenario("Verify user can find pets by their tags", "Test GET requests to get pets with different options") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user can find pets by their tags","Test GET requests to get pets with different options")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user can find pets by their id&quot;, &quot;Test GET requests to get pets with different options&quot;)">
+                  </a> <!-- runScenario("Verify user can find pets by their id", "Test GET requests to get pets with different options") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user can find pets by their id","Test GET requests to get pets with different options")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user can update a pet with form data with POST request&quot;, &quot;Test POST requests to add/update p...)">
+                  </a> <!-- runScenario("Verify user can update a pet with form data with POST request", "Test POST requests to add/update p...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user can update a pet with form data with POST request","Test POST requests to add/update pets with different options")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Place a new order in the store&quot;, &quot;Place and order for a pet&quot;)">
+                  </a> <!-- runScenario("Place a new order in the store", "Place and order for a pet") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Place a new order in the store","Place and order for a pet")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user can update a pet with PUT request&quot;, &quot;Test POST requests to add/update pets with differe...)">
+                  </a> <!-- runScenario("Verify user can update a pet with PUT request", "Test POST requests to add/update pets with differe...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user can update a pet with PUT request","Test POST requests to add/update pets with different options")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user can add a pet with POST request&quot;, &quot;Test POST requests to add/update pets with different...)">
+                  </a> <!-- runScenario("Verify user can add a pet with POST request", "Test POST requests to add/update pets with different...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user can add a pet with POST request","Test POST requests to add/update pets with different options")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user can delete pets by id&quot;, &quot;Test DELETE request to delete pets&quot;)">
+                  </a> <!-- runScenario("Verify user can delete pets by id", "Test DELETE request to delete pets") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user can delete pets by id","Test DELETE request to delete pets")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user can find pets by available status&quot;, &quot;Test GET requests to get pets with different optio...)">
+                  </a> <!-- runScenario("Verify user can find pets by available status", "Test GET requests to get pets with different optio...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user can find pets by available status","Test GET requests to get pets with different options")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Swagger_Petstore_Suite-class-passed -->
+        </div> <!-- panel Swagger_Petstore_Suite -->
+        <div panel-name="test-xml-Swagger_Petstore_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\IdeaProjects\SwaggerPetstore\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Swagger Petstore Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Swagger Petstore Suite&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testrunner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Swagger Petstore Suite --&gt;
+&lt;/suite&gt; &lt;!-- Swagger Petstore Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Swagger_Petstore_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Swagger Petstore Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Swagger Petstore Suite (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Swagger_Petstore_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Swagger Petstore Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Swagger_Petstore_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Swagger Petstore Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Swagger_Petstore_Suite');
+function tableData_Swagger_Petstore_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'testrunner.TestRunner')
+data.setCell(0, 3, 1066);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'testrunner.TestRunner')
+data.setCell(1, 3, 123);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'testrunner.TestRunner')
+data.setCell(2, 3, 69);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'testrunner.TestRunner')
+data.setCell(3, 3, 58);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'testrunner.TestRunner')
+data.setCell(4, 3, 44);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'testrunner.TestRunner')
+data.setCell(5, 3, 34);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'testrunner.TestRunner')
+data.setCell(6, 3, 28);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'testrunner.TestRunner')
+data.setCell(7, 3, 26);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'testrunner.TestRunner')
+data.setCell(8, 3, 23);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'testrunner.TestRunner')
+data.setCell(9, 3, 23);
+window.suiteTableData['Swagger_Petstore_Suite']= { tableData: data, tableDiv: 'times-div-Swagger_Petstore_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Swagger_Petstore_Suite">
+              </div> <!-- times-div-Swagger_Petstore_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Swagger_Petstore_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Swagger Petstore Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Swagger_Petstore_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Swagger_Petstore_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testrunner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@2dd63e3)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user can delete pets by id", "Test DELETE request to delete pets")</span>
+                <span class="method-start">365 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user can find pets by available status", "Test GET requests to get pets with different optio...)</span>
+                <span class="method-start">1433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user can find pets by their tags", "Test GET requests to get pets with different options")</span>
+                <span class="method-start">1491 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user can find pets by their id", "Test GET requests to get pets with different options")</span>
+                <span class="method-start">1515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user can add a pet with POST request", "Test POST requests to add/update pets with different...)</span>
+                <span class="method-start">1639 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user can add a pet with POST request", "Test POST requests to add/update pets with different...)</span>
+                <span class="method-start">1666 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user can update a pet with PUT request", "Test POST requests to add/update pets with differe...)</span>
+                <span class="method-start">1689 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user can update a pet with form data with POST request", "Test POST requests to add/update p...)</span>
+                <span class="method-start">1758 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Returns a map of status codes to quantities", "Returns pet inventories by status")</span>
+                <span class="method-start">1802 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Place a new order in the store", "Place and order for a pet")</span>
+                <span class="method-start">1832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">1868 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

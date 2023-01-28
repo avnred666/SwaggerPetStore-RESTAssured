@@ -1,0 +1,5 @@
+# Created at 2023-01-21T22:07:34.396
+Boot Manifest-JAR contains absolute paths in classpath 'D:\IdeaProjects\SwaggerPetstore\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
